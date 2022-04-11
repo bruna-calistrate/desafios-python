@@ -14,5 +14,4 @@ print("{} x 1 = {:0>2} ~~~~~~ {} x  6 = {:0>2} \n"
               num, num*3, num, num*8,
               num, num*4, num, num*9,
               num, num*5, num, num*10))
-
 print('{:-^30}'.format(''))
