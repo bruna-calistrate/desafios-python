@@ -1,8 +1,9 @@
+from datetime import date
+
 print("""Curso Python #10 - Condições Simples e Compostas - Desafio 32
 
 É um ano bissexto?
 """)
-from datetime import date
 
 ano = int(input("Digite o ano que quer analizar ou 0 para o ano atual: "))
 
@@ -14,7 +15,7 @@ temp = "será"
 
 if ano == date.today().year:
     temp = "é"
-if ano < date.today().year:
+elif ano < date.today().year:
     temp = "foi"
 
 if bis == True:
