@@ -8,28 +8,28 @@ n2 = float(input('Digite o segundo número: '))
 n3 = float(input('Digite o terceiro número: '))
 
 # Primeiro teste, muito mais trabalhoso:
-# mai1 = n1 > n2 and n1 > n3
-# mai2 = n2 > n1 and n2 > n3
-# mai3 = n3 > n1 and n3 > n2
-# men1 = n1 < n2 and n1 < n3
-# men2 = n2 < n1 and n2 < n3
-# men3 = n3 < n1 and n3 < n2
+mai1 = n1 > n2 and n1 > n3
+mai2 = n2 > n1 and n2 > n3
+mai3 = n3 > n1 and n3 > n2
+men1 = n1 < n2 and n1 < n3
+men2 = n2 < n1 and n2 < n3
+men3 = n3 < n1 and n3 < n2
 
-# print("\nO maior número é: ")
-# if mai1:
-#   print(f"{n1}")
-# elif mai2:
-#   print(f"{n2}")
-# elif mai3:
-#   print(f"{n3}")
+print("\nO maior número é: ")
+if mai1:
+  print(f"{n1}")
+elif mai2:
+  print(f"{n2}")
+elif mai3:
+  print(f"{n3}")
 
-# print("\nO menor número é:")
-# if men1:
-#   print(f"{n1}")
-# elif men2:
-#    print(f"{n2}")
-# elif men3:
-#    print(f"{n3}")
+print("\nO menor número é:")
+if men1:
+  print(f"{n1}")
+elif men2:
+   print(f"{n2}")
+elif men3:
+   print(f"{n3}")
 
 # Outra maneira, bem mais eficiente e consisa:
 menor = n1
