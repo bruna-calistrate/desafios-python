@@ -19,5 +19,4 @@ sleep(5)
 # função int determina que o valor será um número inteiro
 print('')
 total = int(num01) + int(num02)
-# print('O resultado é: {}'.format(total))
 print(f"A soma de {num01} e {num02}, é igual a {cores['verd']}{total}{cores['limpa']}!")
