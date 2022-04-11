@@ -31,7 +31,7 @@ n3 = float(input('Digite o terceiro número: '))
 # elif men3:
 #    print(f"{n3}")
 
-# outra maneira, bem mais eficiente e consisa:
+# Outra maneira, bem mais eficiente e consisa:
 menor = n1
 if n2 < n1 and n2 < n3:
     menor = n2
