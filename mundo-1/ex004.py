@@ -16,6 +16,7 @@ print('')
 
 cores = {'amarelo': '\033[1;33m',
          'limpa': '\033[m'}
+
 print(f"""O seu tipo primitivo é {cores['amarelo']}{type(info)}{cores['limpa']}. 
 É um número inteiro? {cores['amarelo']}{info.isnumeric()}{cores['limpa']}. 
 É alfabético? {cores['amarelo']}{info.isalpha()}{cores['limpa']}. 
