@@ -1,4 +1,4 @@
-print('\033[1;40mCurso Python Mundo 1 - Aula #4 - Primeiros comandos - Desafio 01\33[m')
+print('Curso Python Mundo 1 - Aula #4 - Primeiros comandos - Desafio 01')
 
 # Quando entre aspas, inserir os espaços para que o comando fique mais organizado
 nome = str(input("Qual o seu nome? ")).strip().title()
